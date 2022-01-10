@@ -13,7 +13,7 @@ type Product struct {
 	DeletedOn   string
 }
 
-func getProducts() []*Product {
+func GetProducts() []*Product {
 	return productList
 }
 
